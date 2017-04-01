@@ -1,0 +1,48 @@
+/*
+Theme Name:     slider-child
+Description:    child theme of Slider theme
+Author:         jerome
+Template:       SliderResponsiveTheme
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+body {background-color: #fff;} 
+
+#menu_container {padding: 25px 0 15px;}
+
+#single_cont {font-size: 16px;margin-top: 20px; padding:0;}
+#single_cont p {font-size: 18px; line-height: 30px;}
+span.single_category_title {font-weight: bold;text-transform: uppercase;font-size:18px;}
+h1.single_title {font-weight: bold;font-size:16px;margin:10px 0;display:none;}
+.home_post_tall {margin-right: 22px;}
+.home_post_tall_last {margin-right: 0;}
+.home_post_tall img:hover {opacity:0.8;}
+
+.home_post_box .home_post_title {font-size: 10px;width: auto;}
+.home_post_tall .home_post_title {font-size: 11px;width: auto;}
+
+.category-magazines .home_post_title {width:175px;}
+.category-logos .home_post_tall_last .home_post_title {width:150px;}
+.category-cartes-de-visite .home_post_tall .home_post_title {font-size:10px;}
+.category-logos .home_post_tall_last .home_post_title {width:160px;}
+
+.category-travaux-personnels {background-image:url('images/background/orange-pink-and-yellow.jpg');background-size:cover;}
+
+.wpcf7-form p {font-size: 12px;}
+
+.numbers {font-family: 'Open Sans', sans-serif; font-size: 14px; }
+h6 > span {font-family: 'Open Sans', sans-serif;}
+
+#footer img:hover {opacity: 0.8;}
+#footer .left img {border-radius:2px; margin-right:8px;}
+
+.archive_nav a {font-size: 12px;margin-bottom: 30px;}
+
+#footer { padding-left: 0;padding-right: 0;}
+#footer .right {padding-top: 10px;}
+
+.page-id-8 .single_inside_content {
+	background-image: url('images/cdv-export.jpg');
+	background-repeat: no-repeat;
+	background-position:  100%;
+}
