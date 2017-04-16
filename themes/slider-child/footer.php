@@ -2,6 +2,9 @@
 	<div class="clear"></div>
 	<footer id="footer">
 		<div class="left">
+			<?php if(get_option($shortname.'_linkedin_link','') != "") { ?>
+				<a href="<?php echo get_option($shortname.'_linkedin_link',''); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/linkedin-icon.png" alt="linkedin" /></a>
+			<?php } ?>
 			<?php if(get_option($shortname.'_deviantart_link','') != "") { ?>
 				<a href="<?php echo get_option($shortname.'_deviantart_link',''); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/deviantart-icon.png" alt="deviantart" /></a>
 			<?php } ?>
@@ -22,9 +25,6 @@
 			<?php } ?>
 			<?php if(get_option($shortname.'_behance_link','') != "") { ?>
 				<a href="<?php echo get_option($shortname.'_behance_link',''); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/behance-icon.png" alt="behance" /></a>
-			<?php } ?>
-			<?php if(get_option($shortname.'_linkedin_link','') != "") { ?>
-				<a href="<?php echo get_option($shortname.'_linkedin_link',''); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/linkedin-icon.png" alt="linkedin" /></a>
 			<?php } ?>
 			<div class="clear"></div>
 		</div>
