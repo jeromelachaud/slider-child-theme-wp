@@ -28,7 +28,7 @@
 			<?php } ?>
 			<div class="clear"></div>
 		</div>
-		<div class="right">Sylvie M Créations &copy; 2015 SylvieMCreations</div>
+		<div class="right">&copy; 2015 SylvieMCreations</div>
 		<div class="clear"></div>
 	</footer><!--//footer-->
 
