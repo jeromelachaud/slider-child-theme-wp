@@ -1,7 +1,7 @@
 	<?php $shortname = "typographic"; ?>
 	<div class="clear"></div>
 	<footer id="footer">
-		<div class="left">
+		<div>
 			<?php if(get_option($shortname.'_linkedin_link','') != "") { ?>
 				<a href="<?php echo get_option($shortname.'_linkedin_link',''); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/linkedin-icon.png" alt="linkedin" /></a>
 			<?php } ?>
@@ -28,7 +28,7 @@
 			<?php } ?>
 			<div class="clear"></div>
 		</div>
-		<div class="right">&copy; 2015 SylvieMCreations</div>
+		<div class="footer__copyright">&copy; 2015 SylvieMCreations</div>
 		<div class="clear"></div>
 	</footer><!--//footer-->
 
