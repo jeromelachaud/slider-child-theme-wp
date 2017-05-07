@@ -91,6 +91,7 @@ h6 > span {font-family: 'Open Sans', sans-serif;}
   width: 100%;
   padding: .5rem;
   font-size: 1rem;
+  border: 1px solid lightgrey;
 }
 
 .wpcf7-text {
