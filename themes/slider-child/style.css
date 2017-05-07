@@ -54,12 +54,6 @@ h6 > span {font-family: 'Open Sans', sans-serif;}
 }
 #footer .right {padding-top: 10px;}
 
-.page-id-8 .single_inside_content {
-  background-image: url('images/cdv-export.jpg');
-  background-repeat: no-repeat;
-  background-position:  100%;
-}
-
 .footer__copyright {
   padding: .5rem 0 0 0;
 }
@@ -76,5 +70,13 @@ h6 > span {font-family: 'Open Sans', sans-serif;}
 @media screen and (min-width: 766px) {
   .logo {
     width: 50%;
+  }
+}
+
+@media screen and (min-width: 766px) {
+  .page-id-8 .single_inside_content {
+    background-image: url('images/cdv-export.jpg');
+    background-repeat: no-repeat;
+    background-position:  100%;
   }
 }
