@@ -74,9 +74,55 @@ h6 > span {font-family: 'Open Sans', sans-serif;}
 }
 
 @media screen and (min-width: 766px) {
-  .page-id-8 .single_inside_content {
+  .page-id-8 .single_inside_content,
+  .page-id-2391 .single_inside_content {
     background-image: url('images/cdv-export.jpg');
     background-repeat: no-repeat;
     background-position:  100%;
   }
+}
+
+.wpcf7 {
+  max-width: 310px;
+}
+
+.wpcf7-form-control {
+  box-sizing: border-box;
+  width: 100%;
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+.wpcf7-text {
+  height: 2rem;
+}
+
+.wpcf7-response-output {
+  margin: 0;
+  padding: .5rem;
+  border-color: #ff9800;
+}
+
+.wpcf7-submit {
+  height: 2rem;
+  display: block;
+  padding: 0;
+  background-color: lightblue;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+div.wpcf7-response-output {
+  margin: 0;
+  padding: .5rem;
+}
+
+div.wpcf7-validation-errors {
+  border-color: #f00;
+}
+
+div.wpcf7 .ajax-loader {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
