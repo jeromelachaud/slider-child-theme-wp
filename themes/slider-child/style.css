@@ -34,6 +34,8 @@ h1.single_title {margin:10px 0;line-height: 24px;}
 .numbers {font-family: 'Open Sans', sans-serif; font-size: 14px; }
 h6 > span {font-family: 'Open Sans', sans-serif;}
 
+#menu_container { padding-top: 15px; }
+
 #footer img:hover {opacity: 0.8;}
 #footer .left img {border-radius:2px; margin-right:8px;}
 
