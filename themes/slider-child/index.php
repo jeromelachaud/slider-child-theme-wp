@@ -4,6 +4,8 @@
 	<?php if(get_option($shortname.'_disable_slideshow','') != "Yes") { ?>
 
 		<section id="slideshow_cont">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/slide-prev.png" alt="prev" class="slide_prev" />
+			<img src="<?php echo get_template_directory_uri(); ?>/images/slide-next.png" alt="next" class="slide_next" />
 			<div id="slideshow">
 
 				<?php
